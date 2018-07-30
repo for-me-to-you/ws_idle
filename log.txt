@@ -1,0 +1,183 @@
+
+67ae421c53fa4ad99a0220857d112db3 N+Dr7BWxDzFKTkR47xx4Nw==
+
+{type:'roles',roles:[{name:'司徒宙山',title:'华山派第十五代弟子',id:'3lvt24ec973'},{name:'奚莎',title:'逍遥派第三代弟子',id:'db1f240ec5c'},{name:'不是我的错',title:'武当派第三代弟子',id:'l54226093e0'}]}
+{type:"login",setting:{"off_move":1,"auto_hideroom":1,"auto_showcombat":1,"off_fight":1,"no_combatmsg":1,"show_hp":1,"off_plist":1,"auto_work":1},id:"db1f240ec5c"}
+{"type":"room","path":"yz/kuang","name":"扬州城-矿山","desc":"这里原来是一处高山，不知道什么原因崩塌了，四周散落着各种石块。据说有人在这里找到过稀有的宝石，所以有不少来来往往的人们背着背篓在这里碰运气。","commands":[{"cmd":"wa","name":"挖矿"}]}
+{"type":"exits","items":{"east":"西门"}}
+{"type":"items","items":[{id:"zw4o2328761",name:"<hiy>峨嵋派第四代弟子 宗师 老师妹</hiy><red>&lt;断线中&gt;</red><hig>&lt;挖矿中&gt;</hig>",p:1,mp:101207,hp:12958,max_mp:101207,max_hp:82791,status:[]},{id:"vu2j27d92fa",name:"普通百姓 波灞奔<hig>&lt;挖矿中&gt;</hig>",p:1,mp:90,hp:85,max_mp:100,max_hp:85},{id:"61kn269e89d",name:"<hig>峨嵋派第四代弟子 武师 秦心</hig><red>&lt;断线中&gt;</red><hig>&lt;挖矿中&gt;</hig>",p:1,mp:5774,hp:16414,max_mp:15878,max_hp:16414,status:[]},{id:"4wvh2418647",name:"<wht>武当派第三代弟子 武士 捂裆张桑疯</wht><red>&lt;断线中&gt;</red><hig>&lt;挖矿中&gt;</hig>",p:1,mp:12481,hp:13477,max_mp:12497,max_hp:13577,status:[{sid:"success",name:"鼓舞",duration:3600000,overtime:664955}]},{id:"vili26e47f9",name:"<wht>丐帮七袋弟子 武士 赵瀛东</wht><red>&lt;断线中&gt;</red><hig>&lt;挖矿中&gt;</hig>",p:1,mp:6824,hp:5117,max_mp:8155,max_hp:5117},{id:"2xg12393494",name:"<hig>武当派第二代弟子 武师 单于世</hig><red>&lt;断线中&gt;</red><hig>&lt;挖矿中&gt;</hig>",p:1,mp:69034,hp:58326,max_mp:69034,max_hp:72435,status:[{sid:"success",name:"鼓舞",duration:3600000,overtime:664953}]},{id:"vlgh21e8d1e",name:"<hiy>峨嵋派第四代弟子 宗师 王肉肉</hiy><red>&lt;断线中&gt;</red><hig>&lt;挖矿中&gt;</hig>",p:1,mp:99503,hp:84454,max_mp:100539,max_hp:84454,status:[]},{id:"paq723067fc",name:"<hig>华山派第十三代弟子 武师 慕容无尘</hig><red>&lt;断线中&gt;</red><hig>&lt;挖矿中&gt;</hig>",p:1,mp:11698,hp:7487,max_mp:59491,max_hp:37974,status:[{sid:"success",name:"鼓舞",duration:3600000,overtime:665723}]},{id:"qtzx2821f9b",name:"<wht>逍遥派第三代弟子 武士 小河</wht><red>&lt;断线中&gt;</red><hig>&lt;挖矿中&gt;</hig>",p:1,mp:1590,hp:1572,max_mp:1650,max_hp:1915,status:[{sid:"success",name:"鼓舞",duration:3600000,overtime:662171}]},{id:"z4gw2397501",name:"<hiy>峨眉大师姐 宗师 屠龙的女孩</hiy><red>&lt;断线中&gt;</red><hig>&lt;挖矿中&gt;</hig>",p:1,mp:113857,hp:92814,max_mp:113857,max_hp:92814,status:[]},{id:"bw8w229c84d",name:"<hig>武当派第二代弟子 武师 骑士的信条</hig><red>&lt;断线中&gt;</red><hig>&lt;挖矿中&gt;</hig>",p:1,mp:74732,hp:71317,max_mp:74732,max_hp:74773,status:[{sid:"success",name:"鼓舞",duration:3600000,overtime:664977}]},{id:"274f21495b8",name:"<hiy>逍遥派首席弟子 宗师 曲马多</hiy><red>&lt;断线中&gt;</red><hig>&lt;挖矿中&gt;</hig>",p:1,mp:161358,hp:141846,max_mp:166328,max_hp:141846,status:[{sid:"success",name:"鼓舞",duration:3600000,overtime:662203}]},{id:"owhq27cc765",name:"<hig>峨嵋派第五代弟子 武师 喵小菜</hig><red>&lt;断线中&gt;</red><hig>&lt;挖矿中&gt;</hig>",p:1,mp:24707,hp:22904,max_mp:24707,max_hp:22904,status:[]},{id:"e15227cc5cb",name:"<hig>华山派第十四代弟子 武师 闻人岩</hig><red>&lt;断线中&gt;</red><hig>&lt;挖矿中&gt;</hig>",p:1,mp:32701,hp:22313,max_mp:32701,max_hp:22313,status:[{sid:"success",name:"鼓舞",duration:3600000,overtime:665765}]},{id:"itcz2362d26",name:"<hiy>华山派第十三代弟子 宗师 抓抓</hiy><red>&lt;断线中&gt;</red><hig>&lt;挖矿中&gt;</hig>",p:1,mp:101612,hp:64819,max_mp:101812,max_hp:66292,status:[{sid:"success",name:"鼓舞",duration:3600000,overtime:665811}]},{id:"bb6e25fcf4c",name:"<wht>醉生梦死阁帮众 武士 小越</wht><red>&lt;断线中&gt;</red><hig>&lt;挖矿中&gt;</hig>",p:1,mp:9970,hp:5082,max_mp:8990,max_hp:9702,status:[{sid:"success",name:"鼓舞",duration:3600000,overtime:662137}]},{id:"2kea26e2e60",name:"<wht>武当派第二代弟子 武士 曹攀</wht><red>&lt;断线中&gt;</red><hig>&lt;挖矿中&gt;</hig>",p:1,mp:37179,hp:58073,max_mp:56371,max_hp:59614,status:[{sid:"success",name:"鼓舞",duration:3600000,overtime:665004}]},{id:"tc2427b2296",name:"<wht>峨嵋派第六代弟子 武士 大轮寺零七</wht><red>&lt;断线中&gt;</red><hig>&lt;挖矿中&gt;</hig>",p:1,mp:1522,hp:1425,max_mp:1600,max_hp:1425,status:[]},{id:"z9pi24b7a60",name:"<hig>丐帮八袋弟子 武师 第二梦</hig><red>&lt;断线中&gt;</red><hig>&lt;挖矿中&gt;</hig>",p:1,mp:39417,hp:31421,max_mp:39417,max_hp:31421},{id:"681w23e44aa",name:"<hiy>华山派第十三代弟子 宗师 肥宅阔落</hiy><red>&lt;断线中&gt;</red><hig>&lt;挖矿中&gt;</hig>",p:1,mp:78391,hp:66990,max_mp:101955,max_hp:66990,status:[{sid:"success",name:"鼓舞",duration:3600000,overtime:665794}]},{id:"7amq217651a",name:"<hiy>峨嵋派第四代弟子 宗师 计都天坠</hiy><red>&lt;断线中&gt;</red><hig>&lt;挖矿中&gt;</hig>",p:1,mp:169222,hp:95030,max_mp:173587,max_hp:140533,status:[]},{id:"20el2744896",name:"<hig>逍遥派第三代弟子 武师 武秦</hig><red>&lt;断线中&gt;</red><hig>&lt;挖矿中&gt;</hig>",p:1,mp:40283,hp:43010,max_mp:52806,max_hp:44500,status:[{sid:"success",name:"鼓舞",duration:3600000,overtime:662145}]},{id:"wa1s284f5d1",name:"<wht>丐帮八袋弟子 武士 苏乞丐</wht><red>&lt;断线中&gt;</red><hig>&lt;挖矿中&gt;</hig>",p:1,mp:11059,hp:5469,max_mp:15099,max_hp:11934,status:[]},{id:"j1es226d39e",name:"<hiy>灵鹫宫长老 宗师 赫玉寒</hiy><red>&lt;断线中&gt;</red><hig>&lt;挖矿中&gt;</hig>",p:1,mp:105832,hp:111440,max_mp:130066,max_hp:112542,status:[{sid:"success",name:"鼓舞",duration:3600000,overtime:662139}]},{id:"c8xm2861e60",name:"<wht>武当派第三代弟子 武士 噢啦</wht><red>&lt;断线中&gt;</red><hig>&lt;挖矿中&gt;</hig>",p:1,mp:1940,hp:3651,max_mp:4063,max_hp:3651,status:[{sid:"success",name:"鼓舞",duration:3600000,overtime:664984}]},{id:"egwa25b60e1",name:"<hig>华山派第十三代弟子 武师 镜花丶水月</hig><red>&lt;断线中&gt;</red><hig>&lt;挖矿中&gt;</hig>",p:1,mp:33971,hp:42454,max_mp:66287,max_hp:43445,status:[{sid:"success",name:"鼓舞",duration:3600000,overtime:665794}]},{id:"mubr283f238",name:"<wht>天府堂主 武士 雪魔武卫</wht><red>&lt;断线中&gt;</red><hig>&lt;挖矿中&gt;</hig>",p:1,mp:880,hp:825,max_mp:1000,max_hp:825,status:[{sid:"success",name:"鼓舞",duration:3600000,overtime:665768}]},{id:"f4pa224b8c3",name:"<hiy>宗师堂帮主 宗师 此人有点黑</hiy><red>&lt;断线中&gt;</red><hig>&lt;挖矿中&gt;</hig>",p:1,mp:125309,hp:103982,max_mp:125309,max_hp:103982,status:[]},{id:"c51l243cac6",name:"<hiy>逍遥派第三代弟子 宗师 老曹阁下</hiy><red>&lt;断线中&gt;</red><hig>&lt;挖矿中&gt;</hig>",p:1,mp:94316,hp:89327,max_mp:112157,max_hp:89327,status:[{sid:"success",name:"鼓舞",duration:3600000,overtime:662220}]},{id:"n6rs285fa99",name:"<wht>华山派第十四代弟子 武士 心梦无痕</wht><red>&lt;断线中&gt;</red><hig>&lt;挖矿中&gt;</hig>",p:1,mp:3632,hp:305,max_mp:4830,max_hp:3447,status:[{sid:"success",name:"鼓舞",duration:3600000,overtime:665769}]},{id:"twdg2387057",name:"<hiy>武当派第二代弟子 宗师 魅影无极</hiy><red>&lt;断线中&gt;</red><hig>&lt;挖矿中&gt;</hig>",p:1,mp:48142,hp:110779,max_mp:113605,max_hp:110779,status:[{sid:"success",name:"鼓舞",duration:3600000,overtime:665000}]},{id:"nh6r286c8ec",name:"逍遥派第四代弟子 凌恪<red>&lt;断线中&gt;</red><hig>&lt;挖矿中&gt;</hig>",p:1,mp:100,hp:270,max_mp:100,max_hp:270,status:[{sid:"success",name:"鼓舞",duration:3600000,overtime:662102}]},{id:"w6022575b6b",name:"<hig>峨嵋派第四代弟子 武师 凉凉子</hig><red>&lt;断线中&gt;</red><hig>&lt;挖矿中&gt;</hig>",p:1,mp:66847,hp:55455,max_mp:66847,max_hp:55455,status:[]},{id:"vg4z2133d08",name:"<hig>丐帮八袋弟子 武师 溜扇门</hig><red>&lt;断线中&gt;</red><hig>&lt;挖矿中&gt;</hig>",p:1,mp:20977,hp:77,max_mp:20977,max_hp:16913},{id:"mpac2133801",name:"<hiy>丐帮八袋弟子 宗师 生魚忧患</hiy><red>&lt;断线中&gt;</red><hig>&lt;挖矿中&gt;</hig>",p:1,mp:20011,hp:132623,max_mp:173617,max_hp:134516,status:[]},{id:"deiv282cb0b",name:"<wht>逍遥派第三代弟子 武士 殁曦</wht><red>&lt;断线中&gt;</red><hig>&lt;挖矿中&gt;</hig>",p:1,mp:33264,hp:22232,max_mp:34104,max_hp:27408,status:[{sid:"success",name:"鼓舞",duration:3600000,overtime:662136}]},{id:"5sm724172f7",name:"<wht>逍遥派第三代弟子 武士 宗哦</wht><red>&lt;断线中&gt;</red><hig>&lt;挖矿中&gt;</hig>",p:1,mp:1359,hp:1999,max_mp:1626,max_hp:2014,status:[{sid:"success",name:"鼓舞",duration:3600000,overtime:662101}]},{id:"g2or2674ebf",name:"<wht>逍遥派第三代弟子 武士 八云孤星</wht><red>&lt;断线中&gt;</red><hig>&lt;挖矿中&gt;</hig>",p:1,mp:53887,hp:49142,max_mp:58170,max_hp:49209,status:[{sid:"success",name:"鼓舞",duration:3600000,overtime:662099}]},{id:"vb5i27b5622",name:"<hig>稚童阁帮众 武师 兜率天</hig><red>&lt;断线中&gt;</red><hig>&lt;挖矿中&gt;</hig>",p:1,mp:34508,hp:27066,max_mp:41456,max_hp:27066,status:[{sid:"success",name:"鼓舞",duration:3600000,overtime:665755}]},{id:"vk3q2370946",name:"<hiy>嘤嘤教堂主 宗师 北文霄马</hiy><red>&lt;断线中&gt;</red><hig>&lt;挖矿中&gt;</hig>",p:1,mp:107702,hp:63049,max_mp:114852,max_hp:72061,status:[{sid:"success",name:"鼓舞",duration:3600000,overtime:665740}]},{id:"pv9u233b93c",name:"<hiy>天下第一 宗师 哇咔咔咔</hiy><red>&lt;断线中&gt;</red><hig>&lt;挖矿中&gt;</hig>",p:1,mp:83764,hp:63669,max_mp:100853,max_hp:63669,status:[{sid:"success",name:"鼓舞",duration:3600000,overtime:665799}]},{id:"ic0p22c260d",name:"<hig>矿友之家帮主 武师 芦苇</hig><red>&lt;断线中&gt;</red><hig>&lt;挖矿中&gt;</hig>",p:1,mp:63649,hp:41711,max_mp:63849,max_hp:42221,status:[{sid:"success",name:"鼓舞",duration:3600000,overtime:665731}]},{id:"1jjs213390c",name:"<hiy>天下第一 宗师 红发亚特鲁</hiy><hig>&lt;挖矿中&gt;</hig>",p:1,mp:126996,hp:204226,max_mp:191533,max_hp:204226,status:[{sid:"success",name:"鼓舞",duration:3600000,overtime:665006}]},{id:"6wst25bf4a9",name:"<hig>华山派第十四代弟子 武师 陈光蕊</hig><red>&lt;断线中&gt;</red><hig>&lt;挖矿中&gt;</hig>",p:1,mp:30161,hp:19353,max_mp:31056,max_hp:19353,status:[{sid:"success",name:"鼓舞",duration:3600000,overtime:665734}]},{id:"db1f240ec5c",name:"<hig>逍遥派第三代弟子 武师 奚莎</hig><hig>&lt;挖矿中&gt;</hig>",p:1,mp:97755,hp:79573,max_mp:97755,max_hp:80017,status:[{sid:"success",name:"鼓舞",duration:3600000,overtime:662140}]},{id:"d6vv2778b30",name:"<hig>武当派第三代弟子 武师 绝世死狗</hig><red>&lt;断线中&gt;</red><hig>&lt;挖矿中&gt;</hig>",p:1,mp:40314,hp:40938,max_mp:40314,max_hp:40938,status:[{sid:"success",name:"鼓舞",duration:3600000,overtime:664957}]},{id:"msnw22d98a1",name:"<hiy>华山派第十三代弟子 宗师 无敌剑人</hiy><red>&lt;断线中&gt;</red><hig>&lt;挖矿中&gt;</hig>",p:1,mp:137917,hp:95830,max_mp:137917,max_hp:95830,status:[{sid:"success",name:"鼓舞",duration:3600000,overtime:665757}]},{id:"hrqp2514d4e",name:"<hig>琅嬛福地帮众 武师 蓝药师</hig><red>&lt;断线中&gt;</red><hig>&lt;挖矿中&gt;</hig>",p:1,mp:49606,hp:65634,max_mp:95142,max_hp:92287,status:[{sid:"success",name:"鼓舞",duration:3600000,overtime:664996}]},{id:"xtbu27c6851",name:"丐帮七袋弟子 墨叼叼<red>&lt;断线中&gt;</red><hig>&lt;挖矿中&gt;</hig>",p:1,mp:1179,hp:1072,max_mp:1305,max_hp:1152},{id:"u74p23152d0",name:"<hig>缥缈阁帮众 武师 风流三少</hig><red>&lt;断线中&gt;</red><hig>&lt;挖矿中&gt;</hig>",p:1,mp:75329,hp:72703,max_mp:82563,max_hp:85975,status:[{sid:"success",name:"鼓舞",duration:3600000,overtime:665006}]},0]}
+
+重新连线成功。
+
+<hig>恭喜你得到一颗<hig>玄晶</hig>。</hig>
+
+<hig>你获得了34点经验，34点潜能。</hig>
+
+<hig>你获得了42点经验，42点潜能。</hig>
+
+{"type":"msg","ch":"sys","content":"矿务办事员捡到一本挖矿指南，学会了里面记载的挖矿技巧，所有人的挖矿效率都提高了。"}
+
+
+jh
+
+{"type":"dialog","dialog":"jh","fbs":["树林","财主家","流氓巷","丽春院","兵营","庄府","鳌拜府","天地会","神龙教","关外","温府","五毒教","恒山","青城山","衡山","泰山","嵩山","云梦沼泽","桃花岛","白驼山","星宿海","冰火岛","移花宫","燕子坞","黑木崖","缥缈峰","光明顶","天龙寺","血刀门","古墓派","华山论剑","侠客岛","战神殿"],"families":["扬州城","武当派","少林派","华山派","峨眉派","逍遥派","丐帮","襄阳城","武道塔"]}
+
+jh fam 0
+
+{type:"dialog",dialog:"jh",unlock:10}
+
+{"type":"dialog","dialog":"jh","index":0,"desc":"公共区域，你可以在这里买卖物品，使用仓库，购买房屋，帮派驻地等","t":"fam"}
+
+jh fb 10
+{"type":"dialog","dialog":"jh","t":"fb","index":10,"desc":"石梁派温家，一家六兄弟全都阴险毒辣无比，使用毒计得到了金蛇郎君的宝藏","reward":"获得2000点经验，2000点潜能\n掉落或解谜奖励：\n<span cmd='look3 0 of fb_10'><hig>金蛇锥</hig></span>\n<span cmd='look3 1 of fb_10'><hic>金蛇戒</hic></span>\n<span cmd='look3 2 of fb_10'><hic>金蛇披风</hic></span>\n<span cmd='look3 3 of fb_10'><hic>温仪的香囊</hic></span>\n<span cmd='look3 4 of fb_10'><hic>八卦拳残页</hic></span>\n<span cmd='look3 5 of fb_10'><hic>八卦棍法残页</hic></span>\n<span cmd='look3 6 of fb_10'><hiy>金蛇剑法残页</hiy></span>\n<span cmd='look3 7 of fb_10'><hiy>金蛇游身掌残页</hiy></span>\n<span cmd='look3 8 of fb_10'><hiy>金蛇游身步残页</hiy></span>\n<span cmd='look3 9 of fb_10'><hiy>八卦棍</hiy></span>\n<span cmd='look3 10 of fb_10'><hiy>金蛇剑</hiy></span>","is_multi":false}
+jh fb 6
+{"type":"dialog","dialog":"jh","t":"fb","index":6,"desc":"满洲第一勇士鳌拜的府邸","reward":"获得1600点经验，1600点潜能\n掉落或解谜奖励：\n<span cmd='look3 0 of fb_6'><hic>金丝宝甲</hic></span>\n<span cmd='look3 1 of fb_6'><hic>鳌拜匕首</hic></span>\n<span cmd='look3 2 of fb_6'><hig>混元一气残页</hig></span>\n<span cmd='look3 3 of fb_6'><hig>飞檐走壁残页</hig></span>\n<span cmd='look3 4 of fb_6'><hig>伏虎拳残页</hig></span>\n<span cmd='look3 5 of fb_6'><hig>绝门棍残页</hig></span>\n<span cmd='look3 6 of fb_6'><wht>牢房钥匙</wht></span>\n<span cmd='look3 7 of fb_6'><hig>四十二章经</hig></span>","is_multi":false}
+
+jh fb 6 start1
+即将进入副本(鳌拜府)区域，本次副本需要消耗10点精力。
+当前精力：80/100
+{type:"cmds",items:[{cmd:"cr bj/ao/damen",name:"进入副本"},{cmd:"cr bj/ao/damen 0 1",name:"扫荡一次"},{cmd:"cr bj/ao/damen 0 10",name:"扫荡十次"}]}
+cr bj/ao/damen
+{type:"dialog",dialog:"jh",close:true}
+{"type":"room","path":"bj/ao/damen","name":"鳌拜府-大门(副本区域)","desc":"一座富丽堂皇的大宅院出现在你的眼前，两头高大的石狮子镇住了大门两侧。门额上悬挂一方横匾，写着‘满洲第一勇士鳌拜府’几个大字，门外有官兵把守，戒备森严。门上挂着两个灯笼，赫然写着“鳌”字。","commands":[{"cmd":"cr","name":"完成副本"}]}
+{"type":"exits","items":{"west":"大院"}}
+{"type":"items","items":[{id:"6z1528b1ead",name:"官兵",mp:1500,hp:1500,max_mp:1500,max_hp:1500},{id:"vzpl28b1ead",name:"官兵",mp:1500,hp:1500,max_mp:1500,max_hp:1500},{id:"db1f240ec5c",name:"<hig>逍遥派第三代弟子 武师 奚莎</hig>",p:1,mp:97755,hp:79573,max_mp:97755,max_hp:80017,status:[{sid:"success",name:"鼓舞",duration:3600000,overtime:1283623}]},0]}
+
+select 6z1528b1ead
+{"type":"item","desc":"虽然官兵的武艺不能和武林人士相比，可是他们讲究的是人多力量大。","id":"6z1528b1ead","commands":[{"cmd":"look 6z1528b1ead","name":"查看"},{"cmd":"fight 6z1528b1ead","name":"比试"},{"cmd":"kill 6z1528b1ead","name":"击杀"}]}
+
+
+kill 6z1528b1ead
+
+你对著官兵喝道：「臭贼！今日不是你死就是我活！」
+官兵喊道：兄弟们并肩子上！
+{type:"combat",start:1}
+actions
+<hir>看起来官兵想杀死你！</hir>
+{type:"sc",id:"vzpl28b1ead",hp:690}
+{type:"actions",actions:[{cmd:"dazuo",name:"打坐"},{cmd:"liaoshang",name:"疗伤"},{cmd:"use 33bf240ef0f",name:"养精丹"},{cmd:"use gn8v28b10a1",name:"引气丹",distime:30000}],}
+{type:"sc",id:"vzpl28b1ead",hp:0}
+结果只听见「砰」地一声巨响，官兵像一捆稻草般飞了出去，造成<wht>819</wht>点伤害！！
+(官兵<HIR>已经陷入半昏迷状态，随时都可能摔倒晕去。</HIR>)
+
+官兵扑在地上挣扎了几下，腿一伸，口中喷出几口<HIR>鲜血</HIR>，死了！
+{"type":"itemadd",id:"tpco28b1ef1",name:"<wht>官兵的尸体</wht>"}
+{"type":"itemremove",id:"vzpl28b1ead"}
+
+{type:"sc",id:"6z1528b1ead",mp:1458}
+你挥动<wht>铁镐</wht>,扫向官兵的颈部
+{type:"sc",id:"6z1528b1ead",hp:598}
+{type:"sc",id:"6z1528b1ead",hp:0}
+结果只听见「砰」地一声巨响，官兵像一捆稻草般飞了出去，造成<wht>819</wht>点伤害！！
+(官兵<HIR>已经陷入半昏迷状态，随时都可能摔倒晕去。</HIR>)
+{"type":"itemadd",id:"fuit28b1ef6",name:"<wht>官兵的尸体</wht>"}
+{"type":"itemremove",id:"6z1528b1ead"}
+{type:"combat",end:1}
+
+select tpco28b1ef1
+select fuit28b1ef6
+
+go west
+{"type":"room","path":"bj/ao/dayuan","name":"鳌拜府-大院(副本区域)","desc":"你走进大院，迎面是一个假山水池，池中立着一块巨大无比的翡翠，显然是鳌拜收刮来的宝物。水池的两旁种满了花草。北边是厨房，有一棵槐树，郁郁葱葱，遮盖了大半个院子，显得阴森恐怖。西边一条长廊走道通往后院，有几个官兵把守。","commands":[{"cmd":"cr","name":"完成副本"}]}
+{"type":"exits","items":{"west":"后院","east":"大门","north":"厨房"}}
+{"type":"items","items":[{id:"w39b28b1ead",name:"吴之荣",mp:400,hp:400,max_mp:400,max_hp:400},{id:"db1f240ec5c",name:"<hig>逍遥派第三代弟子 武师 奚莎</hig>",p:1,mp:97755,hp:79573,max_mp:97755,max_hp:80017,status:[{sid:"success",name:"鼓舞",duration:3600000,overtime:1560532}]},0]}
+
+select w39b28b1ead
+
+kill w39b28b1ead
+
+{type:"combat",start:1}
+
+{type:"sc",id:"w39b28b1ead",hp:0}
+
+{"type":"itemadd",id:"pjqc28b1ff2",name:"<wht>吴之荣的尸体</wht>"}
+
+{"type":"itemremove",id:"w39b28b1ead"}
+
+{type:"combat",end:1}
+
+{"type":"itemadd",id:"t1d628b2022",name:"<wht>家将的尸体</wht>"}
+{"type":"itemadd",id:"87f328b2025",name:"<wht>女管家的尸体</wht>"}
+{"type":"itemadd",id:"ueqb28b2020",name:"<wht>家将的尸体</wht>"}
+
+select ueqb28b2020
+{"type":"item","desc":"<wht>家将的尸体</wht>\n然而他已经死了，只剩下一具尸体静静地躺在这里。\n它里面有：\n\t二十四枚<yel>铜板</yel>\n\t一份<hig>绝门棍残页</hig>","id":"ueqb28b2020","commands":[{"cmd":"get all from ueqb28b2020","name":"全部拾取"}]}
+
+get all from ueqb28b2020
+{type:"dialog",dialog:"pack",money:6767215}
+
+
+go east
+{"type":"room","path":"bj/ao/houyuan","name":"鳌拜府-后院(副本区域)","desc":"这里是鳌府后院，中心是一个大花园。西边一条长廊走道直通往鳌拜的卧房，有几个官兵把守。北边是书房。南边是鳌拜私设的牢房, <cmd cmd='look men'>牢门(men)</cmd>是锁着的。","commands":[{"cmd":"cr","name":"完成副本"}]}
+
+{"type":"exits","items":{"west":"卧房","east":"大院","north":"书房"}}
+
+go north
+{"type":"room","path":"bj/ao/shufang","name":"鳌拜府-书房(副本区域)","desc":"这里是鳌拜书房，却没有一本书。各种古玩琳琅满目，商周青铜、汉瓦当、唐三彩，珍珠宝石，应有尽有，只要拥有一件，就够你吃一辈子了。北面墙上有一副<cmd cmd='look hua'> 画(hua) </cmd>。书桌上有一本<cmd cmd='look shu'> 书(shu) </cmd>。","commands":[{"cmd":"cr","name":"完成副本"}]}
+{"type":"exits","items":{"south":"后院"}}
+{"type":"items","items":[{id:"db1f240ec5c",name:"<hig>逍遥派第三代弟子 武师 奚莎</hig>",p:1,mp:97755,hp:79573,max_mp:97755,max_hp:80017,status:[{sid:"success",name:"鼓舞",duration:3600000,overtime:1928246}]},0]}
+
+look hua
+{"type":"item","desc":"这张画很一般，足足有一扇门大，不知为什么挂在这儿。","commands":[{"cmd":"tleft hua","name":"向左推"},{"cmd":"tright hua","name":"向右推"}]}
+
+look shu
+{"type":"item","desc":"这就是那本害得庄允城家破人亡的《明史辑略》。","commands":[{"cmd":"open shu","name":"打开"}]}
+
+open shu
+你打开《明史辑略》，发现扉页的左下角被鳌拜写了一个大大的杀字！
+
+tleft hua
+{"type":"exits","items":{"south":"后院","north":"暗室"}}
+
+tright hua
+门已经被你打开了，不要乱推，小心中暗器。
+
+go north
+{"type":"room","path":"bj/ao/anshi","name":"鳌拜府-暗室(副本区域)","desc":"这里是鳌拜藏宝的地方，各种珠宝玉器，珍奇异宝，名贵书籍，应有尽有，有几样尤其显眼。","commands":[{"cmd":"cr","name":"完成副本"}]}
+{"type":"exits","items":{"south":"书房"}}
+{"type":"items","items":[{id:"llrv28b1ead",name:"一本<hig>四十二章经二</hig>"},{id:"db1f240ec5c",name:"<hig>逍遥派第三代弟子 武师 奚莎</hig>",p:1,mp:97755,hp:79573,max_mp:97755,max_hp:80017,status:[{sid:"success",name:"鼓舞",duration:3600000,overtime:2068098}]},0]}
+select llrv28b1ead
+
+get llrv28b1ead
+
+
+cr
+当前副本：鳌拜府
+将获得经验：1600潜能：1600
+完成度：<hiz>100%</hiz>
+
+{type:"cmds",items:[{cmd:"cr over",name:"领取奖励并离开副本"}]}
+
+cr over
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

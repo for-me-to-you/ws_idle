@@ -1,0 +1,201 @@
+<html>                                                                      
+<head>                                                                      
+<title>Simple client</title>                                                
+<link href="./dist/ws2.css" rel="stylesheet" />
+<script src="./dist/echarts.common.min.js"></script>
+<script type="text/javascript">   
+                      
+var ws;                                                                     
+
+function init() {                                                           
+    // 获取服务端ip                                                                      
+    var ip_addr = document.location.hostname;                               
+    window.WebSocket = window.WebSocket || window.MozWebSocket;             
+    //ws = new WebSocket('ws://' + ip_addr +':9001');         // 申请新的客户端                
+
+    // Connect to Web Socket                                                
+    ws = new WebSocket("ws://47.106.8.121:25631/");                           
+
+    // Set event handlers.                                                  
+    ws.onopen = function() {                                                
+        output("onopen");
+		ws.send("67ae421c53fa4ad99a0220857d112db3 N+Dr7BWxDzFKTkR47xx4Nw==");
+  		ws.send("login db1f240ec5c");
+    };                                                                      
+
+    ws.onmessage = function(e) {                                            
+        // e.data contains received string.
+				
+        output( e.data );                                     
+		
+    };                                                                      
+
+    ws.onclose = function() {                                               
+        output("onclose");                                                  
+    };                                                                      
+
+    ws.onerror = function(e) {                                              
+        output("onerror");                                                  
+        console.log(e)                                                      
+    };                                                                      
+// 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('main'));
+
+
+	// 初始 option
+	option = {
+		xAxis: {
+			type: 'category',
+			boundaryGap: false,
+			data: date,
+			nameTextStyle:{
+					color : 'rgb(0, 128, 128,0)'
+				}
+		},
+		yAxis: {
+			boundaryGap: [0, '50%'],
+			type: 'value'
+		},
+		series: [
+			{
+				name:'成交',
+				type:'line',
+				smooth:true,
+				symbol: 'none',
+				stack: 'a',
+				areaStyle: {
+					normal: {}
+				},
+				data: data
+			}
+		]
+	};
+	myChart.setOption(option);
+	/*fetchData(function (data) {
+		myChart.setOption({
+			xAxis: {
+				data: data.categories
+			},
+			series: [{
+				// 根据名字对应到相应的系列
+				name: '销量',
+				data: data.data
+			}]
+		});
+	});
+	*/
+
+	setInterval(function () {
+		addData2(0);
+		myChart.setOption({
+			xAxis: {
+				data: date				
+			},
+			series: [{
+				name:'成交',
+				data: data
+			}]
+		});
+	}, 1000);
+	
+	//for (var i = 1; i < 3600; i++) {
+		//addData();
+	//}
+
+}                                                                           
+	var date = [];
+	var data = [];
+	var base = new Date();
+	var d = new Date(base);
+	
+	
+	var oneDay = 1000 ;
+	
+function addData(shift) {
+    now = [d.getHours(), d.getMinutes() , d.getSeconds()].join(':');
+	date.push(now);
+    data.push((Math.random() - 0.4) * 10 + data[data.length - 1]);
+
+    if (shift) {
+        date.shift();
+        data.shift();
+    }
+
+    d = new Date(+new Date(d) + oneDay);
+}
+
+function addData2(qn) {
+    now = [d.getHours(), d.getMinutes() , d.getSeconds()].join(':');
+	date.push(now);
+    data.push(qn);
+
+    d = new Date(+new Date(d) + oneDay);
+
+}
+
+function fetchData(cb) {
+    // 通过 setTimeout 模拟异步加载
+    setTimeout(function () {
+        cb({
+            categories: ["衬衫","羊毛衫","雪纺衫","裤子","高跟鞋","袜子"],
+            data: [5, 20, 36, 10, 10, 20]
+        });
+    }, 1000);
+}
+
+function onSubmit() {                                                       
+    var input = document.getElementById("input");                           
+    // You can send message to the Web Socket using ws.send.                
+    ws.send(input.value);                                                   
+    output("send: " + input.value);                                         
+    input.value = "";                                                       
+    input.focus();                                                          
+}                                                                           
+
+function onCloseClick() {                                                   
+    ws.close();                                                             
+}                                                                           
+
+function output(str) {                                                      
+    var log = document.getElementById("log");
+	var msg = document.getElementById("msg");  	
+    var escaped = str.replace(/&/, "&amp;").replace(/</, "&lt;").           
+        replace(/>/, "&gt;").replace(/"/, "&quot;"); // "
+	var t = str;
+	
+    if ("<" == t[0]) {
+		if( t.match(/\d+/) ){
+			addData2(t.match(/\d+/).toString());
+			var d = new Date();
+			var now = [d.getHours(), d.getMinutes() , d.getSeconds()].join(':');
+			log.innerHTML =  now + " " + str + "<br>" + log.innerHTML;
+		}
+		else
+		{
+			msg.innerHTML = escaped + "<br>" + msg.innerHTML;		
+		}
+		
+    }
+	else if("{" == t[0]){
+		msg.innerHTML = escaped + "<br>" + msg.innerHTML;
+	}	
+}
+
+
+</script>                                                                   
+</head>                                                                     
+<body onload="init();">                                                     
+<form onsubmit="onSubmit(); return false;">                                 
+    <input type="text" id="input">                                          
+    <input type="submit" value="Send">                                      
+    <button onclick="onCloseClick(); return false;">close</button>          
+</form>         
+<div id="main" style="width:1000px;height:200px;float:left;" ></div>  
+<div id="container" style="width:1000px;height:200px;">
+<div id="log" style="x:0;y:300;width:700px;height:200px;float:left;" ></div>  
+  
+<div id="msg" style="width:300px;height:200px;float:left;"></div>
+</div>
+                  
+</body>                                                                     
+</html> 

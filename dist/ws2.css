@@ -1,0 +1,41 @@
+html, body {
+    margin: 0px;
+    height: 100%;
+    overflow: auto;
+    overflow-y: auto;
+    overflow-x: auto;
+    background-color: black;
+    font-family: "宋体";
+    color: #008000;
+    overflow: auto;
+}
+* {
+    -webkit-tap-highlight-color: rgba(0,100,0,0);
+}
+pre {
+font-size:1.23em;
+}
+.signinfo {
+    position: absolute;
+    bottom: 1em;
+    color: #333;
+    font-size: 0.5rem;
+   left:0px;
+   right:0px;
+   text-align:center;
+}
+    .signinfo > a {
+      color: #333;
+    }
+.hide {
+display:none;
+}
+HIK {color:#808080;}
+HIB {color:#0000FF;}
+HIG {color:#00FF00;}
+HIC {color:#00FFFF;}
+HIR {color:#FF0000;}
+HIM {color:#FF00FF}
+HIY {color:#FFFF00;}
+HIW {color:#FFFFFF;}
+
